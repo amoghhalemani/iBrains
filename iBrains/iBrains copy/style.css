@@ -1,0 +1,844 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+/*--- Navigation Bar Start ----*/ 
+.navBar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    height: 75px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1); 
+}
+.navdiv{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 70px;
+    padding-left: 50px;
+}
+.brain{
+    height: 55px;
+}
+.left{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.logo a{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(208, 4, 4);
+
+}
+.description1{
+    font-size: small;
+    color: black;
+}
+li{
+    list-style: none;
+    display: inline;
+}
+li a{
+    color: black;
+    font-weight: 350;
+    margin-right: 30px;
+    font-size: 16px;
+}
+button{
+    border-radius: 7px;
+    height: 40px;
+    width: 90px;
+    font-size: 17px;
+    border: none;
+}
+.contact{
+    background-color:  rgb(22, 151, 249);
+    color: white;
+}
+/*--- Navigation Bar End ----*/
+
+/*--- Home Section Start ----*/
+.home1{
+    display: flex;
+    background-color: rgb(22, 151, 249);
+    height: 600px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 130px;
+    padding-right: 180px;
+}
+.logo1{
+    height: 90px;
+}
+.part1{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-size: 50px;
+    width: 650px;
+    word-spacing: 7px;
+    color: white;
+    line-height: 55px;
+    font-weight: 600;
+}
+.prec{
+    height: 300px;
+    border-radius: 16px;
+    box-shadow: 0 0 13px rgb(25, 82, 125);
+}
+.description2{
+    padding-top: 25px;
+    font-size: 20px;
+    font-weight:200;
+    width: 650px;
+    line-height: 36px;
+    color: white;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+.book{
+    margin-top: 40px;
+    margin-left: 200px;
+    color:  rgb(25, 151, 249);
+    font-size: 16px;
+    height: 40px;
+    width: 200px;
+    background-color:white;
+}
+.old
+{
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    height: 100px;
+    width: 150px;
+    border-radius: 15px;
+    box-shadow: 0 0px 13px rgb(5, 89, 178);
+    text-align:center;
+    right: 150px;
+    top: 460px;
+    
+}
+.num{
+    font-size: 35px;
+    color: rgb(48, 109, 224);
+    padding-top: 17px;
+}
+.years{
+    font-size: 14px;
+}
+.selection{
+    text-align: center;
+    line-height: 70px;
+    width: 600px;
+    padding-top: 40px;
+    margin:auto;
+}
+.why{
+    font-size: 35px;
+    font-weight: 700;
+}
+.description3{
+    line-height: 25px;
+}
+.three{
+    display: flex;
+    align-items: center;
+    padding-top: 60px;
+    justify-content: space-between;
+    gap: 30px;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+.box{
+    box-shadow: 0 0 5px rgb(214, 210, 210);
+    border-radius: 15px;
+    height: 210px;
+    width: 360px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.items{
+    height: 25px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.name{
+    padding-top: 15px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.description4{
+    padding-top: 15px;
+    font-size: 14px;
+    word-spacing: 4px;
+    font-weight: 200;
+    width:300px
+}
+/*--- Home Section End ----*/
+
+/*----  About Us Start  ----*/
+.selection2{
+    text-align: center;
+    line-height: 70px;
+    width: 670px;
+    padding-top: 40px;
+    margin:auto;
+}
+.description5{
+    line-height: 25px;
+}
+.box2{
+    box-shadow: 0 0 5px rgb(214, 210, 210);
+    border-radius: 15px;
+    height: 150px;
+    width: 360px;
+    background-color: rgb(248, 248, 248);
+    padding-top: 25px;
+    text-align: center;
+}
+.name2{
+    font-size: 23px;
+    font-weight: 600;
+}
+.position{
+    padding-top: 10px;
+    color:rgb(58, 164, 214) ;    
+}
+.edu{
+    padding-top: 10px;
+}
+.bio{
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+}
+.mission{
+    display: flex;
+    background-color: rgb(22,151,259);
+    height: 450px;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top: 70px;
+    border-radius: 20px;
+}
+.chemicals{
+    height: 350px;
+    margin-right: 50px;
+    margin-top: 50px;
+    border-radius: 17px;
+    box-shadow: 0 0 5px rgb(52, 55, 57);
+}
+.write{
+    color: white;
+    padding-left: 50px;
+    padding-right: 40px;
+    padding-top: 90px;
+}
+.head2{
+    font-size: 35px;
+    font-weight: 600;
+}
+.description6{
+    padding-top: 25px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 100;
+}
+.all{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+}
+.number{
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+.content{
+    padding-top: 5px;
+    font-weight:200 ;
+}
+
+/*----  About Us End  ----*/
+
+/*----  Our Services Start  ----*/
+
+.services{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 60px;
+    margin-left: 130px ;
+    margin-right: 130px;
+}
+.clinical{
+    height: 550px;
+    width: 560px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgb(214, 218, 221);
+}
+.head3{
+    padding-top: 30px;
+    padding-left: 30px;
+    display: flex;
+    font-size: 25px;
+    font-weight: 600;
+    align-items: center;
+    gap: 13px;
+}
+.icon1{
+    height: 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.icon2{
+    height: 20px;
+}
+.parts{
+    display: flex;
+    padding-left: 30px;
+    padding-top: 20px;
+    align-items: center;
+    gap: 10px;
+    font-weight: 350;
+}
+.image2{
+    padding-top: 30px;
+    width: 560px;
+    height: 255px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.servpic{
+    height: 375px;
+    width: 450px;
+    margin-top: 38px;
+    margin-right: 40px;
+    border-radius: 17px;
+    box-shadow: 0 0 5px rgb(214, 210, 210);
+}
+.profserv{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    height: 450px;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top: 70px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgb(214, 210, 210);
+}
+.write2{
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+    padding-top: 60px;
+}
+.sched{
+    background-color:rgb(22, 151, 249) ;
+    color: white;
+    height: 45px;
+    width: 220px;
+    border-radius: 10px;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+/*----  Our Services End  ----*/
+
+/*----  Research Start  ----*/
+
+.description7{
+    line-height: 25px;
+    width: 700px;
+}
+.box3{
+    height: 210px;
+    width: 360px;
+    text-align: center;
+}
+.items2{
+    height: 40px;
+    padding: 15px;
+    border-radius: 50%;
+}
+.name3{
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.description8{
+    padding-top: 15px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 23px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.focus2{
+    background-color: rgb(243, 243, 243);
+    margin-top: 50px;
+    margin-left: 130px;
+    margin-right: 130px;
+    border-radius: 15px;
+}
+.services2{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 50px;
+    padding-left: 40px;
+}
+.clinical2{
+    height: 240px;
+    width: 560px;
+}
+.head4{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 40px;
+    font-weight: 700;
+}
+.head5{
+    padding-left: 30px;
+    font-size: 23px;
+    font-weight: 600;
+    color:rgb(22, 151, 249) ;
+}
+.head6{
+    padding-left: 30px;
+    font-size: 23px;
+    font-weight: 600;
+    color:rgb(83, 189, 108) ;
+}
+.latest{
+    margin-top: 60px;
+    background-color: rgb(243, 243, 243);
+    padding-bottom: 60px ;
+    margin-bottom: 10px;
+}
+.description9{
+    font-size: 19px;
+    line-height: 30px;
+}
+.image3{
+    width: 360px;
+    height: 200px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.clinical3{
+    height: 440px;
+    width: 360px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 0 5px rgb(214, 218, 221);
+}
+.one{
+    padding:30px ;
+    padding-top: 25px;
+}
+.color1{
+    color: rgb(22, 151, 249);
+    font-weight: 600;
+    font-size: 17px;
+}
+.color2{
+    color: rgb(83, 189, 108);
+    font-weight: 600;
+    font-size: 17px;
+}
+.color3{
+    color: rgb(210, 169, 18);
+    font-weight: 600;
+    font-size: 17px;
+}
+.head7{
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.description10{
+    padding-top: 20px;
+    font-size: 14px;
+}
+.date{
+    padding-top: 20px;
+    font-size: 14px;
+}
+.view{
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    background-color: rgb(22, 151, 249);
+    color: white;
+    height: 40px;
+    width: 170px;
+    font-size: 16px;
+}
+
+/*----  Research End  ----*/
+
+/*----  Contact Start  ----*/
+
+.contact1{
+    display: flex;
+    margin-left: 130px;
+    padding-right: 130px;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.fill{
+    background-color: rgb(243, 243, 243);
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 610px;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.tick{
+    display: flex;
+    gap: 13px;
+    margin-top: 30px;
+}
+.firstname{
+    display: flex;
+    gap: 30px;
+    padding-top: 15px;
+}
+input[type="text"]{
+    height: 45px;
+    width: 245px;
+    margin-top: 15px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border: none;
+    box-shadow: 0 0 1px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+input[type="checkbox"]{
+    width: 25px;
+}       
+.booking{
+    margin-top: 30px;
+}
+.input{
+    padding-top: 10px;
+}
+textarea{
+    width: 540px;
+    padding: 13px;
+    font-size: 15px;
+    border: none;
+    box-shadow: 0 0 1px;
+    margin-top: 15px;
+    border-radius: 4px;
+}
+.selectionbox{
+    font-weight: 600;
+    margin-top: 16px;
+}
+select{
+    margin-top: 13px;
+    height: 45px;
+    width: 567px;
+    padding-left: 13px;
+    padding-right: 15px;
+    background-position: right 10px center;
+    font-size: 14px;
+    border: none;
+    box-shadow: 0 0 1px;
+    border-radius: 4px;
+}
+input[type="submit"]{
+    height: 40px;
+    width: 565px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(22, 151, 249);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.details5{
+    margin-top: 16px;
+    font-weight: 600;
+}
+.details4{
+    font-weight: 600;
+}
+.schedule{
+    font-size: 25px;
+    font-weight: 600;
+}
+.emergency{
+    padding-left: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 4px;
+    background-color: rgb(230, 157, 47);
+    color: white;
+    margin-top: 30px;
+}
+.main{
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    gap: 10px;
+}
+.alert{
+    height: 20px;
+}
+.number2{
+    display: flex;
+    gap: 10px;
+    padding-top: 7px;
+    font-size: 13px;
+}
+.data{
+    padding-top: 10px;
+    font-size: 13px;
+    padding-bottom: 5px;
+}
+.name10{
+    font-weight: 700;
+    font-size: 13px;
+}
+.getin{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    border-radius: 4px;
+    background-color: rgb(50, 157, 239);
+    color: white;
+    padding-bottom: 40px;
+}
+.touch{
+    font-size: 25px;
+    font-weight: 600;
+}
+.icon3{
+    height: 25px;
+}
+.details{
+    display: flex;
+    gap: 16px;
+    padding-top: 30px;
+}
+.head9{
+    font-size: 18px;
+    font-weight: 600;
+}
+.details3{
+    padding-top: 6px;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+/*----  Contact End  ----*/
+
+/* ----- footer ------ */
+
+.final2{
+    line-height: 30px;
+    width: 800px;
+}
+.head8{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 20px; 
+}
+.footer{
+    margin-top: 70px;
+    padding-left: 130px;
+    padding-right: 130px;
+    background-color: rgb(18,24,39);
+    padding-top: 50px;
+    color: white;
+}
+.final{
+    display: flex;
+}
+.final1{
+    line-height: 30px;
+}
+.foothead{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.end{
+    text-align: center;
+    line-height: 30px;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.finalimages{
+    padding-top: 25px;
+    display: flex;
+    gap: 50px;
+}
+
+/*  END  */
+
+/* Responsive Styles */
+@media (max-width: 900px) {
+    .navdiv {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background: white;
+        position: absolute;
+        top: 75px;
+        left: 0;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+        z-index: 100;
+    }
+    .nav-links.active {
+        display: flex;
+    }
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        gap: 5px;
+        margin-left: 20px;
+    }
+    .hamburger span {
+        display: block;
+        width: 28px;
+        height: 4px;
+        background: #1697f9;
+        border-radius: 2px;
+    }
+    .navBar {
+        height: auto;
+    }
+    .home1 {
+        flex-direction: column;
+        height: auto;
+        padding: 30px 10px;
+    }
+    .part1, .description2 {
+        width: 100%;
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .sub2 {
+        margin-top: 30px;
+    }
+    .old {
+        position: static;
+        margin: 20px auto;
+        right: unset;
+        top: unset;
+    }
+    .three, .services, .final {
+        flex-direction: column;
+        gap: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .box, .box2, .box3, .clinical, .clinical2, .clinical3 {
+        width: 100% !important;
+        min-width: 0;
+        max-width: 100%;
+    }
+    .selection, .selection2, .description7 {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .mission, .profserv, .focus2, .footer {
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .chemicals, .servpic, .image2, .image3 {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+    .contact1 {
+        flex-direction: column;
+        margin-left: 10px;
+        padding-right: 10px;
+    }
+    .fill, .info {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+    textarea, select, input[type="text"], input[type="submit"] {
+        width: 100% !important;
+        min-width: 0;
+        max-width: 100%;
+    }
+    .final2 {
+        width: 100%;
+    }
+    .footer {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .end {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .part1 {
+        font-size: 22px;
+        line-height: 28px;
+        gap: 10px;
+    }
+    .logo1 {
+        height: 60px;
+    }
+    .why {
+        font-size: 22px;
+    }
+    .head2, .touch, .schedule {
+        font-size: 20px;
+    }
+    .head3, .head4, .head5, .head6 {
+        font-size: 18px;
+    }
+    .nav-links li, .nav-links button {
+        font-size: 15px;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .nav-links {
+        top: 60px;
+    }
+}
+
+.hamburger {
+    display: none;
+}
