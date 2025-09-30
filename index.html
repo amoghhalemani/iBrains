@@ -3,458 +3,625 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iBrains Center</title>
+    <title>iBrains Centre - Precision Medicine & Precision Neuropsychiatry</title>
+    <meta name="description" content="Bengaluru's premier precision medicine clinic pioneering personalized treatment plans using multimodal data like genomics, gut microbiome, molecular and imaging biomarkers, and AI driven risk prediction models.">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="navBar">
-        <div class="navdiv">
-            <div class="left">
-                <div class="img">
-                    <img class="brain" src="images/iBrains.jpeg" alt="iBrains Logo">
-                </div>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
                 <div class="logo">
-                    <a href="#">iBrains Centre</a>
-                    <div class="description1">Precision Medicine & Precision Neuropsychiatry</div>
+                    <img src="images/iBrains.jpeg" alt="logo" class="head">
+                    <div class="logo-text">
+                        <span class="logo-title">iBrains Centre</span>
+                        <span class="logo-subtitle">Precision Medicine & Precision Neuropsychiatry</span>
+                    </div>
                 </div>
-            </div>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#aboutus">About Us</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#research">Research</a></li>
-                    <li><button onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})" class="contact">Contact</button></li>
-                </ul>
-                <div class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('active')">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                
+                <div class="nav-menu">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#services" class="nav-link">Services</a>
+                    <a href="#research" class="nav-link">Research</a>
+                    <a href="#contact" class="nav-link">Contact</a>
                 </div>
+                
+                <button class="cta-button">Book Consultation</button>
             </nav>
         </div>
-    </div>
-    <div  id="home" class="home1">
-        <div class="sub1">
-            <div class="part1">
-                <img class="logo1"src="images/iBrains2.jpeg" alt="logo">
-                <div class="heading1">iBrains Center for Precision Medicine & Precision Neuropsychiatry</div>
-            </div>    
-            <div class="part2">
-                <p class="description2">Bengaluru's premier precision medicine clinic pioneering personalized treatment plans using multimodal data like genomics,gut microbiome, molecular and imaging biomarkers, and AI driven risk prediction models.</p>
-                <button onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})" class="book">Book Consultation</button>
-            </div>
-        </div>
-        <div class="sub2">
-            <img class="prec"src="images/Precision.jpeg" alt="precision">
-        </div>
-        <div class="old">
-            <div class="num">20+</div>
-            <div class="years">Years Experience</div>
-        </div>
-    </div>
-    <div class="selection">
-        <div class="why">Why Choose iBrains Centre?</div>
-        <div class="description3">We pioneer personalized treatment plans using multimodal data including genomics, gut microbiome, molecular and imaging biomarkers, and Al driven risk prediction models.</div>
-    </div>
-    <div class="three">
-        <div class="box">
-            <img class="items" style="background-color: rgb(22,151,249);" src="images/brain1.png" alt="logo">
-            <div class="name">AI-Powered Diagnostics</div>
-            <div class="description4">Advanced computational neuroscience and machine learning algorithms for precise diagnosis and treatment planning.</div>
-        </div>
-        <div class="box">
-            <img class="items" style="background-color: rgb(59, 184, 59);" src="images/dna.png" alt="logo">
-            <div class="name">Biomarker Research</div>
-            <div class="description4">Cutting-edge biomarker development for neurodegenerative disorders and personalized treatment approaches.</div>
-        </div>
-        <div class="box">
-            <img class="items" style="background-color: orange;" src="images/check.png" alt="logo">
-            <div class="name">Expert Team</div>
-            <div id="aboutus" class="description4">3-member multidisciplinary team with 20+ years experience in genetics, computational neuroscience, and clinical psychology.</div>
-        </div>
-    </div>
-    <div class="selection2">
-        <div class="why">Meet Our Expert Team</div>
-        <div class="description5">Our 3-member multidisciplinary team combines decades of clinical experience with cutting-edge research in precision neuropsychiatry, ensuring the highest quality of care for our patients.</div>
-    </div>
-    <div class="three">
-        <div class="box2">
-            <div class="name2">Dr. Nagaraj D Halemani</div>
-            <div class="position">Founder</div>
-            <div class="edu">MBBS, MSc, PhD</div>
-            <div class="bio">Genetics & Molecular Neurosciences specialist with 20+ years in precision medicine research.</div>
-        </div>
-        <div class="box2">
-            <div class="name2">Dr. Selva Kumar</div>
-            <div class="position">Computational Neuroscience</div>
-            <div class="edu">MBBS, MPhil, PhD</div>
-            <div class="bio">Leading expert in computational neuroscience and AI-based diagnostic systems.</div>
-        </div>
-        <div class="box2">
-            <div class="name2">Clinical Psychologist</div>
-            <div class="position">Psychology Specialist</div>
-            <div class="edu">Licensed Professional</div>
-            <div class="bio">Specialized in neuropsychological assessment and evidence-based therapy approaches.</div>
-        </div>
-    </div>
-    <div class="mission">
-        <div class="write">
-            <div class="head2">Our Mission</div>
-            <div class="description6">To revolutionize mental healthcare through precision medicine, combining big data analytics, artificial intelligence, and computational neuroscience to provide personalized, evidence-based treatment solutions.</div>
-            <div class="all">
-                <div>
-                    <div class="number">1000+</div>
-                    <div class="content">Patients Treated</div>
-                </div>
-                <div>
-                    <div class="number">15+</div>
-                    <div id="services" class="content">Research Publications</div>
-                </div>
-            </div>
-        </div>
-        <img class="chemicals" src="images/nci-vol-2240-150.jpg" alt="chemicals">
-    </div>
-    <div class="selection2">
-        <div class="why">Our Services</div>
-        <div class="description5">Comprehensive mental health services powered by precision medicine, AI diagnostics, and personalized treatment approaches.</div>
-    </div>
-    <div class="services">
-        <div class="clinical">
-            <div class="head3">
-                <img class="icon1" style="background-color: rgb(22,151,249) ;" src="images/doctor.png" alt="icon1">
-                <div>Clinical Services</div>
-            </div>
-            <div class="list">
-                <div class="parts">
-                    <img class="icon2" src="images/tick.png" alt="icon2">
-                    <div>Customized mental health therapy based on individual biomarkers</div>
-                </div>
-                <div class="parts">
-                    <img class="icon2" src="images/tick.png" alt="icon2">
-                    <div>Personalized health solutions using AI-driven insights</div>
-                </div>  
-                <div class="parts">
-                    <img class="icon2" src="images/tick.png" alt="icon2">
-                    <div>Integrated mental health care under one roof</div>
-                </div>  
-                <div class="parts">
-                    <img class="icon2" src="images/tick.png" alt="icon2">
-                    <div>Neuropsychiatric disorder treatment and management</div>
-                </div>    
-                <div class="parts">
-                    <img class="icon2" src="images/tick.png" alt="icon2">
-                    <div>Treatment-resistant condition management</div>
-                </div>  
-            </div>  
-            <img class="image2" src="images/clinic.jpg" alt="image">
-        </div>     
-        <div class="clinical">
-            <div class="head3">
-                <img class="icon1" style="background-color: rgb(59, 184, 59);" src="images/micrp.png" alt="icon1">
-                <div>Research & development</div>
-            </div>
-            <div class="list">
-                <div class="parts">
-                    <img class="icon2" src="images/tick.png" alt="icon2">
-                    <div>Biomarker development for clinical diagnostics</div>
-                </div>
-                <div class="parts">
-                    <img class="icon2" src="images/tick.png" alt="icon2">
-                    <div>Neuroimaging and electrophysiological research</div>
-                </div>
-                <div class="parts">
-                    <img class="icon2" src="images/tick.png" alt="icon2">
-                    <div>Focus on neurodegenerative disorders</div>
-                </div>
-                <div class="parts">
-                    <img class="icon2" src="images/tick.png" alt="icon2">
-                    <div>Translational research in CNS therapeutics</div>
-                </div>
-                <div class="parts">
-                    <img class="icon2" src="images/tick.png" alt="icon2">
-                    <div>EEG-based diagnostic tool development</div>
-                </div>
-            </div> 
-            <img class="image2" src="images/holdbrain2.avif" alt="image">
-        </div>
-    </div>
-    <div class="profserv">
-        <div class="write2">
-            <div class="head3">
-                <img class="icon1" style="background-color: orange;" src="images/group.png" alt="icon1">
-                <div>Professional Consultation Services</div>
-            </div>
-            <div class="list">
-                <div class="parts">
-                    <img class="icon2" src="images/tick.png" alt="icon2">
-                    <div>Neuroscientist consulting for clinicians</div>
-                </div>
-                <div class="parts">
-                    <img class="icon2" src="images/tick.png" alt="icon2">
-                    <div>Integration of modern neuroscience into psychiatric practice</div>
-                </div>  
-                <div class="parts">
-                    <img class="icon2" src="images/tick.png" alt="icon2">
-                    <div>Training and resource development for healthcare professionals</div>
-                </div>  
-                <button id="research" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})" class="sched">Schedule Consultation</button>
-            </div>
-        </div>
-        <img class="servpic" src="images/services.jpeg" alt="chemicals">
-    </div>
-    <div class="selection2">
-        <div class="why">Research & Innovation</div>
-        <div class="description7">Leading the frontier of precision neuropsychiatry through cutting-edge research in biomarkers, AI diagnostics, and computational neuroscience.</div>
-    </div>
-    <div class="three">
-        <div class="box3">
-            <img class="items2" style="background-color: rgb(22,151,249);" src="images/sql.png" alt="logo">
-            <div class="name3">Big Data Analytics</div>
-            <div class="description8">Leveraging large-scale data analysis to identify patterns and predictive markers for mental health conditions.</div>
-        </div>
-        <div class="box3">
-            <img class="items2" style="background-color: rgb(59, 184, 59);" src="images/robo.png" alt="logo">
-            <div class="name3">artificial Intelligence</div>
-            <div class="description8">Advanced AI algorithms for predictive medicine and personalized treatment optimization.</div>
-        </div>
-        <div class="box3">
-            <img class="items2" style="background-color: orange;" src="images/up.png" alt="logo">
-            <div class="name3">Computational Neuroscience</div>
-            <div class="description8">Mathematical modeling and computational approaches to understand brain function and dysfunction.</div>
-        </div>
-    </div>
-    <div class="focus2">
-        <div class="head4">Current Research Focus</div>
-        <div class="services2">
-            <div class="clinical2">
-                <div class="head5">
-                    <div>Clinical Services</div>
-                </div>
-                <div class="list">
-                    <div class="parts">
-                        <img class="icon2" src="images/flask.png" alt="icon2">
-                        <div>Clinical biomarkers for early detection</div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <div class="side">
+                        <div class="hero-brand">
+                            <img src="images/iBrains2.jpeg" alt="logo" class="main">
+                        </div>
+                        
+                        <h1 class="hero-title">
+                            iBrains Centre for<br>
+                            <span class="hero-subtitle">Precision Medicine &</span><br>
+                            <span class="hero-subtitle">Precision Neuropsychiatry</span>
+                        </h1>
                     </div>
-                    <div class="parts">
-                        <img class="icon2" src="images/flask.png" alt="icon2">
-                        <div>Fluid biomarkers in cerebrospinal fluid and blood</div>
-                    </div>  
-                    <div class="parts">
-                        <img class="icon2" src="images/flask.png" alt="icon2">
-                        <div>Neuroimaging biomarkers using advanced MRI</div>
-                    </div>  
-                    <div class="parts">
-                        <img class="icon2" src="images/flask.png" alt="icon2">
-                        <div>Electrophysiological markers via EEG analysis</div>
-                    </div>      
-                </div>  
-            </div>     
-            <div class="clinical2">
-                <div class="head6">
-                    <div>Research & development</div>
-                </div>
-                <div class="list">
-                    <div class="parts">
-                        <img class="icon2" src="images/brain.png" alt="icon2">
-                        <div>Neurodegenerative disorder research</div>
-                    </div>
-                    <div class="parts">
-                        <img class="icon2" src="images/brain.png" alt="icon2">
-                        <div>Translational CNS therapeutics</div>
-                    </div>
-                    <div class="parts">
-                        <img class="icon2" src="images/brain.png" alt="icon2">
-                        <div>Precision medicine applications</div>
-                    </div>
-                    <div class="parts">
-                        <img class="icon2" src="images/brain.png" alt="icon2">
-                        <div>AI-driven diagnostic systems</div>
-                    </div>
-                </div> 
-            </div>
-        </div>
-    </div>
-    <div class="latest">
-        <div class="selection2">
-            <div class="why">Latest Insights & News</div>
-            <div class="description9">Stay updated with the latest developments in precision neuropsychiatry and mental health research.</div>
-        </div>
-        <div class="services">
-            <div class="clinical3">
-                <img class="image3" src="images/nci-vol-2240-150.jpg" alt="image">
-                 <div class="one">
-                    <div class="color1">Research Update</div>
-                    <div class="head7">Advances in AI-Driven Mental Health Diagnostics</div>
-                    <div class="description10">Our latest research demonstrates significant improvements in diagnostic accuracy using machine learning algorithms...</div>
-                    <div class="date">December 15, 2024</div>
-                 </div>
-            </div>     
-            <div class="clinical3">
-                <img class="image3" src="images/brainlie.jpg" alt="image">
-                <div class="one">
-                    <div class="color2">Clinical Insight</div>
-                    <div class="head7">Biomarkers in Precision Neuropsychiatry</div>
-                    <div class="description10">Understanding how biomarkers are revolutionizing personalized treatment approaches in mental health care...</div>
-                    <div class="date">December 10, 2024</div>
-                 </div>
-            </div>
-            <div class="clinical3">
-                <img class="image3" src="images/istockphoto-1307543618-612x612.jpg" alt="image">
-                <div class="one">
-                    <div class="color3">Patient Care</div>
-                    <div class="head7">Personalized Treatment Success Stories</div>
-                    <div class="description10">Case studies highlighting the effectiveness of our precision medicine approach in treating complex conditions...</div>
-                    <div class="date">December 5, 2024</div>
-                 </div>  
-            </div>
-        </div>
-        <button id="contact" class="view">View All Articles</button>
-    </div>
-    <div class="selection2">
-        <div class="why">Contact Us</div>
-        <div class="description9">Ready to experience personalized precision medicine? Contact our expert team to schedule a consultation using our multimodal data approach.</div>
-    </div>
-    <div class="contact1">
-        <div class="fill">
-            <div class="schedule">Schedule a Consultation</div>
-            <form action="https://api.web3forms.com/submit" method="POST">
-                <input type="hidden" name="access_key" value="YOUR-ACCESS-KEY">
-                <div class="firstname">
-                    <div class="input">
-                        <div class="details4">First Name *</div>
-                        <input type="text" name="FirstName" placeholder="Enter your first name" required>
-                    </div>
-                    <div class="input">
-                        <div class="details4">Last Name *</div>
-                        <input type="text" name="LastName" placeholder="Enter your last name" required>
+                    
+                    <p class="hero-description">
+                        Bengaluru's premier precision medicine clinic pioneering
+                        personalized treatment plans using multimodal data like
+                        genomics, gut microbiome, molecular and imaging
+                        biomarkers, and AI driven risk prediction models.
+                    </p>
+                    
+                    <div class="hero-buttons">
+                        <button class="btn-primary">Book Consultation</button>
                     </div>
                 </div>
-                <div class="firstname">   
-                    <div class="input">
-                        <div class="details4">Email Address *</div>
-                        <input type="text" name="Email" placeholder="your.email@example.com" required>
-                    </div>
-                    <div class="input">
-                        <div class="details4">Phone Number *</div>
-                        <input type="text" name="Phone" placeholder="+91 XXXXX XXXXX" required>
-                    </div>
-                </div>    
-                    <div class="input">
-                        <div class="selectionbox">Service interest</div>
-                        <select name="Service"> 
-                            <option hidden>Select a service</option>
-                            <option>option 1</option>
-                            <option>option 2</option>
-                            <option>option 3</option>
-                        </select>
-                    </div>
-                    <div class="input">
-                        <div class="details5">Message</div>
-                        <textarea rows="4" name="Message" placeholder="Please describe your needs or any specific questions you have..."></textarea>
-                    </div>
-                    <div class="tick">
-                        <input type="checkbox" required>
-                        <div>I agree to the privacy policy and consent to my information being used for appointment scheduling purposes. *</div>
-                    </div>
-                    <div class="booking">
-                        <input class="booking1" type="submit" value="Schedule Consultation">
-                    </div>
-            </form>
-        </div>
-        <div class="info">
-            <div class="getin">
-                <div class="touch">Get in Touch</div>
-                <div class="details">
-                    <img src="images/location.png" alt="icon" class="icon3">
-                    <div class="details2">
-                        <div class="head9">Location</div>
-                        <div class="details3">Bengaluru, Karnataka, India</div>
-                        <div class="details3">Exact address provided upon appointment confirmation</div>
-                    </div>
-                </div>    
-                <div class="details">
-                    <img src="images/call.png" alt="icon" class="icon3">
-                    <div class="details2">
-                        <div class="head9">Phone</div>
-                        <div class="details3">+91 XXXXX XXXXX</div>
-                        <div class="details3">Available Monday - Friday, 9:00 AM - 6:00 PM</div>
-                    </div>
-                </div>
-                <div class="details">
-                    <img src="images/mail.png" alt="icon" class="icon3">    
-                    <div class="details2">
-                        <div class="head9">Email</div>
-                        <div class="details3">info@ibrainscentre.com</div>
-                        <div class="details3">We respond within 24 hours</div>
-                    </div>
-                </div>    
-                <div class="details">
-                    <img src="images/calender.png" alt="icon" class="icon3">
-                    <div class="details2">
-                        <div class="head9">Operating Hours</div>
-                        <div class="details3">Monday - Friday: 9:00 AM - 6:00 PM</div>
-                        <div class="details3">Saturday: 9:00 AM - 2:00 PM</div>
-                        <div class="details3">Sunday: Closed</div>
+
+                <div class="hero-right">
+                    <div class="hero-card">
+                        <div class="hero-card-header">
+                            <h3>Our Unique Precision Medicine Approach</h3>
+                            <p>From One size fits all to Personalized treatment</p>
+                        </div>
+                        
+                        <div class="hero-image">
+                            <img src="images/Precision.jpeg" alt="Precision Medicine Approach Chart">
+                        </div>
+                        
+                        <div class="hero-stats">
+                            <div class="stat-number">20+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="emergency">
-                <div class="main">
-                    <img src="images/alert.png" alt="alert" class="alert">
-                    <div>Emergency Mental Health Support</div>
-                </div> 
-                <div class="data">If you're experiencing a mental health emergency, please contact:</div>
-                <div class="number2">
-                    <div class="name10">Emergency Helpline:</div>
-                    <div class="contact3">1800-599-0019</div>
+        </div>
+    </section>
+
+     <!-- Why Choose Section -->
+     <section class="why-choose">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose iBrains Centre?</h2>
+                <p>We pioneer personalized treatment plans using multimodal data including genomics, gut microbiome, molecular and imaging biomarkers, and AI driven risk prediction models.</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon medical-blue">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <h3>AI-Powered Diagnostics</h3>
+                    <p>Advanced computational neuroscience and machine learning algorithms for precise diagnosis and treatment planning.</p>
                 </div>
-                <div class="number2">
-                    <div class="name10">NIMHANS Emergency:</div>
-                    <div class="contact3">+91 80 2699 5950</div>
+
+                <div class="feature-card">
+                    <div class="feature-icon medical-green">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.78 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
+                        </svg>
+                    </div>
+                    <h3>Biomarker Research</h3>
+                    <p>Cutting-edge biomarker development for neurodegenerative disorders and personalized treatment approaches.</p>
                 </div>
-                <div class="number2">
-                    <div class="name10">Or visit your nearest emergency room</div>
+
+                <div class="feature-card">
+                    <div class="feature-icon medical-orange">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                        </svg>
+                    </div>
+                    <h3>Expert Team</h3>
+                    <p>3-member multidisciplinary team with 20+ years experience in genetics, computational neuroscience, and clinical psychology.</p>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="about" class="team">
+        <div class="container">
+            <div class="section-header">
+                <h2>Meet Our Expert Team</h2>
+                <p>Our 3-member multidisciplinary team combines decades of clinical experience with cutting-edge research in precision neuropsychiatry, ensuring the highest quality of care for our patients.</p>
+            </div>
+
+            <div class="team-grid">
+                <div class="team-member">
+                    <h3>Dr. Nagaraj D Halemani</h3>
+                    <div class="team-role medical-blue-text">Founder</div>
+                    <div class="team-credentials">MBBS, MSc, PhD</div>
+                    <p>Genetics & Molecular Neurosciences specialist with 20+ years in precision medicine research.</p>
+                </div>
+
+                <div class="team-member">
+                    
+                    <h3>Dr. Selva Kumar</h3>
+                    <div class="team-role medical-blue-text">Computational Neuroscience</div>
+                    <div class="team-credentials">MBBS, MPhil, PhD</div>
+                    <p>Leading expert in computational neuroscience and AI-based diagnostic systems.</p>
+                </div>
+
+                <div class="team-member">
+                    
+                    <h3>Clinical Psychologist</h3>
+                    <div class="team-role medical-blue-text">Psychology Specialist</div>
+                    <div class="team-credentials">Licensed Professional</div>
+                    <p>Specialized in neuropsychological assessment and evidence-based therapy approaches.</p>
+                </div>
+            </div>
+
+            <div class="team-mission">
+                <div class="team-mission-grid">
+                    <div class="team-mission-content">
+                        <h3>Our Mission</h3>
+                        <p>To revolutionize mental healthcare through precision medicine, combining big data analytics, artificial intelligence, and computational neuroscience to provide personalized, evidence-based treatment solutions.</p>
+                        
+                        <div class="team-stats">
+                            <div class="team-stat">
+                                <div class="stat-number1">1000+</div>
+                                <div class="stat-label1">Patients Treated</div>
+                            </div>
+                            <div class="team-stat">
+                                <div class="stat-number1">15+</div>
+                                <div class="stat-label1">Research Publications</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-mission-image">
+                        <img src="images/nci-vol-2240-150.jpg" alt="Medical laboratory equipment">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Comprehensive precision medicine services combining advanced diagnostics, personalized treatment plans, and cutting-edge research for optimal mental health outcomes.</p>
+            </div>
+                <div class="research-grid">
+                    <div class="research-column1">
+                        <div class="in">
+                            <div class="head3">
+                                <img class="icon1" style="background-color: rgb(22,151,249) ;" src="images/doctor.png" alt="icon1">
+                                <div>Clinical Services</div>
+                            </div>
+                            <div class="research-list">
+                                <div class="research-list-item">
+                                    <img src="images/tick.png" alt="brain" class="research-emoji">
+                                    <span>Customized mental health therapy based on individual biomarkers</span>
+                                </div>
+                                <div class="research-list-item">
+                                    <img src="images/tick.png" alt="brain" class="research-emoji">
+                                    <span>Personalized health solutions using AI-driven insights</span>
+                                </div>
+                                <div class="research-list-item">
+                                    <img src="images/tick.png" alt="brain" class="research-emoji">
+                                    <span>Integrated mental health care under one roof</span>
+                                </div>
+                                <div class="research-list-item">
+                                    <img src="images/tick.png" alt="brain" class="research-emoji">
+                                    <span>Neuropsychiatric disorder treatment and management </span>
+                                </div>
+                                <div class="research-list-item">
+                                    <img src="images/tick.png" alt="flask" class="research-emoji">
+                                    <span>Treatment-resistant condition management</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-image1">
+                            <img src="images/clinic.jpg" alt="Advances in AI-Driven Mental Health Diagnostics">
+                        </div>
+                    </div>
+                    <div class="research-column1">
+                        <div class="in">
+                            <div class="head3">
+                                <img class="icon1" style="background-color: rgb(59, 184, 59);" src="images/micrp.png" alt="icon1">
+                                <div>Research & development</div>
+                            </div>
+                            <div class="research-list">
+                                <div class="research-list-item">
+                                    <img src="images/tick.png" alt="flask" class="research-emoji">
+                                    <span>Biomarker development for clinical diagnostics</span>
+                                </div>
+                                <div class="research-list-item">
+                                    <img src="images/tick.png" alt="flask" class="research-emoji">
+                                    <span>Neuroimaging and electrophysiological research</span>
+                                </div>
+                                <div class="research-list-item">
+                                    <img src="images/tick.png" alt="flask" class="research-emoji">
+                                    <span>Focus on neurodegenerative disorders</span>
+                                </div>
+                                <div class="research-list-item">
+                                    <img src="images/tick.png" alt="flask" class="research-emoji">
+                                    <span>Translational research in CNS therapeutics</span>
+                                </div>
+                                <div class="research-list-item">
+                                    <img src="images/tick.png" alt="flask" class="research-emoji">
+                                    <span>EEG-based diagnostic tool development</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-image1">
+                            <img src="images/holdbrain2.avif" alt="Advances in AI-Driven Mental Health Diagnostics">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="team-mission1">
+        <div class="team-mission-grid1">
+            <div>
+                <div class="team-mission-content">
+                    <div class="center1">
+                        <div class="head3">
+                        <h2>Professional Consultation Services</h2>
+                    </div> 
+                    </div>              
+                    <div class="research-list-item1">
+                        <img src="images/tick.png" alt="flask" class="research-emoji">
+                        <span>Neuroscientist consulting for clinicians</span>
+                    </div>
+                    <div class="research-list-item1">
+                        <img src="images/tick.png" alt="flask" class="research-emoji">
+                        <span>Integration of modern neuroscience into psychiatric practice</span>
+                    </div>
+                    <div class="research-list-item1">
+                        <img src="images/tick.png" alt="flask" class="research-emoji">
+                        <span>Training and resource development for healthcare professionals</span>
+                    </div>
+                </div>
+                <div class="hero-buttons1">
+                    <button class="btn-primary">Book Consultation</button>
+                </div>
+            </div>
+        </div>
+        <div class="team-mission-image2">
+            <img src="images/services.jpeg" alt="Medical laboratory equipment">
         </div>
     </div>
-    <div class="footer">
-        <div class="final">
-            <div class="final1">
-                <div class="foothead">iBrains Center</div>
-                <div>Bengaluru's premier precision medicine clinic pioneering personalized treatment plans using multimodal data like genomics, gut microbiome, molecular and imaging biomarkers, and AI driven risk prediction models.</div>
-                <div class="finalimages">
-                    <a href="https://www.linkedin.com/in/ibrains-centre-for-precision-neuropsychiatry-aa228727b/">
-                        <img class="icon3" src="images/linkedin.png" alt="icons">
-                    </a>
-                    <a href="">
-                        <img class="icon3" src="images/twitter.png" alt="icons">
-                    </a>
-                    <a href="">    
-                        <img class="icon3" src="images/facebook.png" alt="icons">
-                    </a>
+
+    <!-- Research Section -->
+    <section id="research" class="research">
+        <div class="container">
+            <div class="section-header">
+                <h2>Research & Innovation</h2>
+                <p>Leading the frontier of precision neuropsychiatry through cutting-edge research in biomarkers, AI diagnostics, and computational neuroscience.</p>
+            </div>
+
+            <div class="research-areas">
+                <div class="research-item">
+                    <div class="research-icon medical-blue">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4"/>
+                        </svg>
+                    </div>
+                    <h3>Big Data Analytics</h3>
+                    <p>Leveraging large-scale data analysis to identify patterns and predictive markers for mental health conditions.</p>
+                </div>
+
+                <div class="research-item">
+                    <div class="research-icon medical-green">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.78 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
+                        </svg>
+                    </div>
+                    <h3>Artificial Intelligence</h3>
+                    <p>Advanced AI algorithms for predictive medicine and personalized treatment optimization.</p>
+                </div>
+
+                <div class="research-item">
+                    <div class="research-icon medical-orange">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <h3>Computational Neuroscience</h3>
+                    <p>Mathematical modeling and computational approaches to understand brain function and dysfunction.</p>
                 </div>
             </div>
-            <div class="final2">
-                <div class="head8">Quick Links</div>
-                <div onclick="document.getElementById('aboutus').scrollIntoView({behavior:'smooth'})">About Us</div>
-                <div onclick="document.getElementById('services').scrollIntoView({behavior:'smooth'})">Services</div>
-                <div onclick="document.getElementById('research').scrollIntoView({behavior:'smooth'})">Research</div>
-                <div onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Contact</div>
-            </div>
-            <div class="final2">
-                <div class="head8">Patient Resources</div>
-                <div>Patient Portal</div>
-                <div>Educational Materials</div>
-                <div>Insurance Information</div>
-                <div>Privacy Policy</div>
+
+            <div class="research-focus">
+                <h3>Current Research Focus</h3>
+                
+                <div class="research-grid">
+                    <div class="research-column">
+                        <h4 class="medical-blue-text">Biomarker Development</h4>
+                        <div class="research-list">
+                            <div class="research-list-item">
+                                <img src="images/flask.png" alt="flask" class="research-emoji">
+                                <span>Clinical biomarkers for early detection</span>
+                            </div>
+                            <div class="research-list-item">
+                                <img src="images/flask.png" alt="flask" class="research-emoji">
+                                <span>Fluid biomarkers in cerebrospinal fluid and blood</span>
+                            </div>
+                            <div class="research-list-item">
+                                <img src="images/flask.png" alt="flask" class="research-emoji">
+                                <span>Neuroimaging biomarkers using advanced MRI</span>
+                            </div>
+                            <div class="research-list-item">
+                                <img src="images/flask.png" alt="flask" class="research-emoji">
+                                <span>Electrophysiological markers via EEG analysis</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="research-column">
+                        <h4 class="medical-green-text">Clinical Applications</h4>
+                        <div class="research-list">
+                            <div class="research-list-item">
+                                <img src="images/brain.png" alt="brain" class="research-emoji">
+                                <span>Neurodegenerative disorder research</span>
+                            </div>
+                            <div class="research-list-item">
+                                <img src="images/brain.png" alt="brain" class="research-emoji">
+                                <span>Translational CNS therapeutics</span>
+                            </div>
+                            <div class="research-list-item">
+                                <img src="images/brain.png" alt="brain" class="research-emoji">
+                                <span>Precision medicine applications</span>
+                            </div>
+                            <div class="research-list-item">
+                                <img src="images/brain.png" alt="brain" class="research-emoji">
+                                <span>AI-driven diagnostic systems</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="end">
-            <div class="end1">© 2024 iBrains Centre for Precision Neuropsychiatry. All rights reserved.</div>
-            <div class="end2">This website is HIPAA-compliant and designed for educational and informational purposes.</div>
+    </section>
+
+    <!-- News Section -->
+    <section class="news">
+        <div class="container">
+            <div class="section-header">
+                <h2>Latest Insights & News</h2>
+                <p>Stay updated with the latest developments in precision neuropsychiatry and mental health research.</p>
+            </div>
+
+            <div class="news-grid">
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="images/nci-vol-2240-150.jpg" alt="Advances in AI-Driven Mental Health Diagnostics">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-category medical-blue-text">Research Update</div>
+                        <h3>Advances in AI-Driven Mental Health Diagnostics</h3>
+                        <p>Our latest research demonstrates significant improvements in diagnostic accuracy using machine learning algorithms...</p>
+                        <div class="news-date">December 15, 2024</div>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="images/brainlie.jpg" alt="Biomarkers in Precision Neuropsychiatry">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-category medical-green-text">Clinical Insight</div>
+                        <h3>Biomarkers in Precision Neuropsychiatry</h3>
+                        <p>Understanding how biomarkers are revolutionizing personalized treatment approaches in mental health care...</p>
+                        <div class="news-date">December 10, 2024</div>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="images/istockphoto-1307543618-612x612.jpg" alt="Personalized Treatment Success Stories">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-category medical-orange-text">Patient Care</div>
+                        <h3>Personalized Treatment Success Stories</h3>
+                        <p>Case studies highlighting the effectiveness of our precision medicine approach in treating complex conditions...</p>
+                        <div class="news-date">December 5, 2024</div>
+                    </div>
+                </article>
+            </div>
         </div>
-    </div>
+    </section>
+
+    
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <p>Ready to experience personalized precision medicine? Contact our expert team to schedule a consultation using our multimodal data approach.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-form">
+                    <h3>Schedule a Consultation</h3>
+                    
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>First Name *</label>
+                                <input type="text" placeholder="Enter your first name">
+                            </div>
+                            <div class="form-group">
+                                <label>Last Name *</label>
+                                <input type="text" placeholder="Enter your last name">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Email Address *</label>
+                                <input type="email" placeholder="your.email@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label>Phone Number *</label>
+                                <input type="tel" placeholder="+91 XXXXX XXXXX">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Service Interest</label>
+                            <select>
+                                <option value="">Select a service</option>
+                                <option value="consultation">General Consultation</option>
+                                <option value="genetic-testing">Genetic Testing</option>
+                                <option value="biomarker">Biomarker Analysis</option>
+                                <option value="neurofeedback">QEEG & Neurofeedback</option>
+                                <option value="stress-program">Stress & Anxiety Programs</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea placeholder="Please describe your needs or any specific questions you have..." rows="4"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-primary full-width">Schedule Consultation</button>
+                    </form>
+                </div>
+                <div class="infoall">
+                    <div class="contact-info">
+                        <h3>Get in Touch</h3>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Location</h4>
+                                <p>Bengaluru, Karnataka, India</p>
+                                <small>Exact address provided upon appointment confirmation</small>
+                            </div>
+                        </div>
+    
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Phone</h4>
+                                <p>+91 XXXXX XXXXX</p>
+                                <small>Available Monday - Friday, 9:00 AM - 6:00 PM</small>
+                            </div>
+                        </div>
+    
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>info@ibrainscentre.com</p>
+                                <small>We respond within 24 hours</small>
+                            </div>
+                        </div>
+    
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Operating Hours</h4>
+                                <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                                <p>Saturday: 9:00 AM - 2:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="emergency-box">
+                            <h3>⚠️ Emergency Mental Health Support</h3>
+                            <p>If you're experiencing a mental health emergency, please contact:</p>
+                            <p class="highlight">Emergency Helpline: 1800-599-0019</p>
+                            <p class="highlight">NIMHANS Emergency: +91 80 2699 5950</p>
+                            <p><span class="highlight">or</span> visit your nearest emergency room</p>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                   <div class="toAlign">
+                    <div class="footer-logo">
+                        <div class="footer-logo-text">
+                            <span class="footer-title">iBrains Centre</span>
+                            <span class="footer-subtitle">Precision Medicine & Precision Neuropsychiatry</span>
+                        </div>
+                    </div>
+                    <p>Pioneering personalized treatment plans using multimodal data analytics, AI-driven diagnostics, and computational neuroscience for mental healthcare.</p>
+                   </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <svg viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M20 10C20 4.477 15.523 0 10 0S0 4.477 0 10c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V10h2.54V7.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V10h2.773l-.443 2.89h-2.33v6.988C16.343 19.128 20 14.991 20 10z" clip-rule="evenodd"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#research">Research</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Patient Resources</h4>
+                    <ul>
+                        <li><a href="#">Patient Portal</a></li>
+                        <li><a href="#">Educational Materials</a></li>
+                        <li><a href="#">Insurance Information</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 iBrains Centre for Precision Neuropsychiatry. 
+                <p>All rights reserved.</p>
+                <p>This website is HIPAA-compliant and designed for educational purposes.</p>
+                </p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
